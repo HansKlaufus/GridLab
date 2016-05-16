@@ -14,12 +14,12 @@ The programme can be compiled using **wxWidgets** and the graphical user interfa
 
 The programme was written using the IDE **Code::Blocks**, which stores each project using the following file types:
 
-* '*.cbp'
-* '*.depend'
-* '*.layout'
+* `*.cbp`
+* `*.depend`
+* `*.layout`
 
 It was compiled using the **Gnu Compiler Collection**.
-The folder 'doc/html' contains 'thml'-files created using **doxygen**.
+The folder `doc/html` contains 'thml'-files created using **doxygen**.
 
 ## Acknowledgements
 This programme is based on the thesis:
