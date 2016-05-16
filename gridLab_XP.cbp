@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gridLab" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\gridLab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-D__WXDEBUG__" />
+					<Add directory="C:\wxWidgets-2.8.10\lib\gcc_lib\mswd" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\wxWidgets-2.8.10\lib\gcc_lib\mswd" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+					<Add library="libwxmsw28d_richtext.a" />
+					<Add library="libwxmsw28d_xrc.a" />
+					<Add library="libwxmsw28d_aui.a" />
+					<Add library="libwxmsw28d_media.a" />
+					<Add library="libwxbase28d_net.a" />
+					<Add library="libwxmsw28d_gl.a" />
+					<Add library="libwxbase28d_xml.a" />
+					<Add library="libwxmsw28d_adv.a" />
+					<Add library="libwxmsw28d_html.a" />
+					<Add library="libwxmsw28d_core.a" />
+					<Add library="libwxbase28d.a" />
+					<Add library="libwxpngd.a" />
+					<Add library="libwxjpegd.a" />
+					<Add library="libwxtiffd.a" />
+					<Add library="libwxzlibd.a" />
+					<Add library="libwxregexd.a" />
+					<Add library="libwxexpatd.a" />
+					<Add directory="C:\wxWidgets-2.8.10\lib\gcc_lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\gridLab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add directory="C:\wxWidgets-2.8.10\lib\gcc_lib\msw" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\wxWidgets-2.8.10\lib\gcc_lib\msw" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw28_richtext.a" />
+					<Add library="libwxmsw28_xrc.a" />
+					<Add library="libwxmsw28_aui.a" />
+					<Add library="libwxmsw28_media.a" />
+					<Add library="libwxbase28_net.a" />
+					<Add library="libwxmsw28_gl.a" />
+					<Add library="libwxbase28_xml.a" />
+					<Add library="libwxmsw28_adv.a" />
+					<Add library="libwxmsw28_html.a" />
+					<Add library="libwxmsw28_core.a" />
+					<Add library="libwxbase28.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxjpeg.a" />
+					<Add library="libwxtiff.a" />
+					<Add library="libwxzlib.a" />
+					<Add library="libwxregex.a" />
+					<Add library="libwxexpat.a" />
+					<Add directory="C:\wxWidgets-2.8.10\lib\gcc_lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option='[[if (PLATFORM == PLATFORM_MSW &amp;&amp; (GetCompilerFactory().GetCompilerVersionString(_T(&quot;gcc&quot;)) &gt;= _T(&quot;4.0.0&quot;))) print(_T(&quot;-Wno-attributes&quot;));]]' />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add directory="C:\wxWidgets-2.8.10\include" />
+			<Add directory="C:\wxWidgets-2.8.10\contrib\include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:\wxWidgets-2.8.10\include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+			<Add library="libopengl32.a" />
+		</Linker>
+		<Unit filename="src\app.cpp" />
+		<Unit filename="src\app.h" />
+		<Unit filename="src\array.h" />
+		<Unit filename="src\box.cpp" />
+		<Unit filename="src\box.h" />
+		<Unit filename="src\canvas.cpp" />
+		<Unit filename="src\canvas.h" />
+		<Unit filename="src\carpet.cpp" />
+		<Unit filename="src\carpet.h" />
+		<Unit filename="src\container.h" />
+		<Unit filename="src\element2d.cpp" />
+		<Unit filename="src\element2d.h" />
+		<Unit filename="src\element3d.cpp" />
+		<Unit filename="src\element3d.h" />
+		<Unit filename="src\enumerations.h" />
+		<Unit filename="src\exception.cpp" />
+		<Unit filename="src\exception.h" />
+		<Unit filename="src\exceptiontree.cpp" />
+		<Unit filename="src\exceptiontree.h" />
+		<Unit filename="src\geometry.cpp" />
+		<Unit filename="src\geometry.h" />
+		<Unit filename="src\geometryframe.cpp" />
+		<Unit filename="src\geometryframe.h" />
+		<Unit filename="src\globals.h" />
+		<Unit filename="src\grid.h" />
+		<Unit filename="src\gui.cpp" />
+		<Unit filename="src\gui.h" />
+		<Unit filename="src\list.h" />
+		<Unit filename="src\macro.h" />
+		<Unit filename="src\matrix.h" />
+		<Unit filename="src\mywx.h" />
+		<Unit filename="src\node.cpp" />
+		<Unit filename="src\node.h" />
+		<Unit filename="src\node2d.cpp" />
+		<Unit filename="src\node2d.h" />
+		<Unit filename="src\node3d.cpp" />
+		<Unit filename="src\node3d.h" />
+		<Unit filename="src\parentframe.cpp" />
+		<Unit filename="src\parentframe.h" />
+		<Unit filename="src\patch.cpp" />
+		<Unit filename="src\patch.h" />
+		<Unit filename="src\reader.cpp" />
+		<Unit filename="src\reader.h" />
+		<Unit filename="src\spline.cpp" />
+		<Unit filename="src\spline.h" />
+		<Unit filename="src\stack.h" />
+		<Unit filename="src\str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\str.h" />
+		<Unit filename="src\surface.cpp" />
+		<Unit filename="src\surface.h" />
+		<Unit filename="src\surfacegrid.cpp" />
+		<Unit filename="src\surfacegrid.h" />
+		<Unit filename="src\surfacegridframe.cpp" />
+		<Unit filename="src\surfacegridframe.h" />
+		<Unit filename="src\tetrahedron.cpp" />
+		<Unit filename="src\tetrahedron.h" />
+		<Unit filename="src\treeitemdata.cpp" />
+		<Unit filename="src\treeitemdata.h" />
+		<Unit filename="src\triangle.cpp" />
+		<Unit filename="src\triangle.h" />
+		<Unit filename="src\unstructured.h" />
+		<Unit filename="src\unstructured2d.cpp" />
+		<Unit filename="src\unstructured2d.h" />
+		<Unit filename="src\unstructured3d.cpp" />
+		<Unit filename="src\unstructured3d.h" />
+		<Unit filename="src\volumegridframe.cpp" />
+		<Unit filename="src\volumegridframe.h" />
+		<Unit filename="src\writer.cpp" />
+		<Unit filename="src\writer.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

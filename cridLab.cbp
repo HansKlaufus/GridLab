@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cridLab" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cridLab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-f ./data/Sphere.geo" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-pg" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cridLab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/ac3dobject.cpp" />
+		<Unit filename="src/ac3dobject.h" />
+		<Unit filename="src/ac3dsurface.cpp" />
+		<Unit filename="src/ac3dsurface.h" />
+		<Unit filename="src/application.cpp" />
+		<Unit filename="src/application.h" />
+		<Unit filename="src/array.h" />
+		<Unit filename="src/box.cpp" />
+		<Unit filename="src/box.h" />
+		<Unit filename="src/carpet.cpp" />
+		<Unit filename="src/carpet.h" />
+		<Unit filename="src/container.h" />
+		<Unit filename="src/element.cpp" />
+		<Unit filename="src/element.h" />
+		<Unit filename="src/element2d.cpp" />
+		<Unit filename="src/element2d.h" />
+		<Unit filename="src/element3d.cpp" />
+		<Unit filename="src/element3d.h" />
+		<Unit filename="src/enumerations.h" />
+		<Unit filename="src/exception.cpp" />
+		<Unit filename="src/exception.h" />
+		<Unit filename="src/exceptiontree.cpp" />
+		<Unit filename="src/exceptiontree.h" />
+		<Unit filename="src/geometry.cpp" />
+		<Unit filename="src/geometry.h" />
+		<Unit filename="src/geometryreader.cpp" />
+		<Unit filename="src/geometryreader.h" />
+		<Unit filename="src/geometrywriter.cpp" />
+		<Unit filename="src/geometrywriter.h" />
+		<Unit filename="src/globals.h" />
+		<Unit filename="src/grid.h" />
+		<Unit filename="src/indexedlist.h" />
+		<Unit filename="src/list.h" />
+		<Unit filename="src/macro.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/matrix.h" />
+		<Unit filename="src/node.cpp" />
+		<Unit filename="src/node.h" />
+		<Unit filename="src/node2d.cpp" />
+		<Unit filename="src/node2d.h" />
+		<Unit filename="src/node3d.cpp" />
+		<Unit filename="src/node3d.h" />
+		<Unit filename="src/object.cpp" />
+		<Unit filename="src/object.h" />
+		<Unit filename="src/object2d.cpp" />
+		<Unit filename="src/object2d.h" />
+		<Unit filename="src/object3d.cpp" />
+		<Unit filename="src/object3d.h" />
+		<Unit filename="src/patch.cpp" />
+		<Unit filename="src/patch.h" />
+		<Unit filename="src/spline.cpp" />
+		<Unit filename="src/spline.h" />
+		<Unit filename="src/stack.h" />
+		<Unit filename="src/str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/str.h" />
+		<Unit filename="src/surface.cpp" />
+		<Unit filename="src/surface.h" />
+		<Unit filename="src/surfacegrid.cpp" />
+		<Unit filename="src/surfacegrid.h" />
+		<Unit filename="src/tetrahedron.cpp" />
+		<Unit filename="src/tetrahedron.h" />
+		<Unit filename="src/triangle.cpp" />
+		<Unit filename="src/triangle.h" />
+		<Unit filename="src/unstructured.h" />
+		<Unit filename="src/unstructured2d.cpp" />
+		<Unit filename="src/unstructured2d.h" />
+		<Unit filename="src/unstructured3d.cpp" />
+		<Unit filename="src/unstructured3d.h" />
+		<Unit filename="src/vector.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
